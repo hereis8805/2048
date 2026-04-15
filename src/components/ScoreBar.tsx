@@ -21,7 +21,7 @@ export default function ScoreBar({ score, bestScore, onNewGame, onLeaderboard }:
       </View>
       <View style={styles.actionRow}>
         <TouchableOpacity style={styles.rankBtn} onPress={onLeaderboard}>
-          <Text style={styles.rankText}>🏆 랭킹</Text>
+          <Text style={styles.rankText}>🏆 랭킹.</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.button} onPress={onNewGame}>
           <Text style={styles.buttonText}>New Game</Text>
